@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main(){
+    int n;
+    std::cout<< "input your number: ";
+    std::cin>> n;
+    int rev = 0;
+    while (n>0){
+       int digit = n%10;
+       rev = rev*10 + digit ;   
+       n = n/10;
+    }
+    std::cout << rev;
+
+    return 0;
+}
