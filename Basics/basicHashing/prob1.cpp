@@ -5,7 +5,8 @@ int main() {
     int arr[] = {10, 5, 10, 15, 10, 5};
     int n = 6;
     bool visited[n];
-    for(int i = 0; i < n; i++) visited[i] = false;
+    for(int i = 0; i < n; i++)
+     {visited[i] = false;}
 
     for(int i = 0; i < n; i++) {
         if(visited[i]) continue;
