@@ -2,11 +2,11 @@ class Solution {
 public:
     int missingNumber(vector<int>& nums) {
         int n = nums.size();
-        int expect = n*(n+1)/2;
-        int actual = 0;
-        for(int i =0; i<nums.size(); i++){
-            actual = actual +nums[i];
-        }
-        return expect - actual; 
+        int Ogsum = (n*(n+1))/2;
+        int sum = 0;
+        for(int i = 0; i<nums.size(); i++){
+            sum += nums[i];
+        } 
+        return Ogsum - sum;
     }
 };
