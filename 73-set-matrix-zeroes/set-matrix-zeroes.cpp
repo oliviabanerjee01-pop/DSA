@@ -19,7 +19,7 @@ public:
             }
         }
 
-        // Set corresponding rows and columns to zero
+        // rows and columns to zero
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < m; j++) {
 
