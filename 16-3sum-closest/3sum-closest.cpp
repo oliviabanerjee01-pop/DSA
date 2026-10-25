@@ -22,7 +22,7 @@ public:
                 if (sum == target){
                     return res;
                 }
-                if (sum < target){
+                else if (sum < target){
                     left++;
                 }
                 else{
