@@ -17,7 +17,7 @@ public:
                low++;
                len=high-low+1;
            }
-           // now ewual
+           
            len=high-low+1;
            res=max(res,len);
        }
